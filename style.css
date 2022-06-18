@@ -6,6 +6,15 @@
   background-color: white;
   color: #000000;
 }
+
+.material-symbols-outlined {
+    display: none;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 .card-content1{
     display: none;
 }
@@ -258,7 +267,15 @@ body {
   z-index: 3;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+    .material-symbols-outlined {
+        display: contents;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
     .card-content1 {
         display: block;
   padding: .5rem;
@@ -290,13 +307,15 @@ body {
   }
 
   #right-menu {
-    display: flex;
-    align-items: center;
+    display: none;
   }
 
   #logo {
     margin: 0;
     width: 120px;
+    position: relative;
+right: 35vw;
+top: -1rem;
   }
 
   .menu-item {
