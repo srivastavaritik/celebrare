@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Inka B';
+    src: local('Inka B Text Medium Italic'), local('Inka-B-Text-Medium-Italic'),
+        url('InkaBText-MediumItalic.woff2') format('woff2'),
+        url('InkaBText-MediumItalic.woff') format('woff'),
+        url('InkaBText-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
